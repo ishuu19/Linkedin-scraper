@@ -90,9 +90,7 @@ This Python script utilizes Selenium to scrape LinkedIn search results for indiv
  
     ```
 ## Full Code
-```
-python
-Copy code
+```python
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 import csv
@@ -166,7 +164,6 @@ finally:
 #### To do that:
 
 ```python
-Copy code
 # Read the csv file
 df = pd.read_csv('linkedin_marketplace_investor_results.csv')
 # To clean the NAME column
